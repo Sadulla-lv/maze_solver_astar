@@ -1,2 +1,10 @@
 # maze_solver_astar
 Final project from ,,Algoritmi un programmēšanas metodes(English)". Done solo by Sadulla Abdukodirov
+maze_11x11 -> Coins Collected: 99, Steps: 29
+maze_31x31 -> Coins Collected: 1076, Steps: 228
+maze_101x101 -> Coins Collected: 1763, Steps: 370
+
+Submission Format:
+99,1076,1763
+Time Complexity: O(N^2 log N) due to priority queue and revisits
+Space Complexity: O(N^2) for visited map and path tracking
